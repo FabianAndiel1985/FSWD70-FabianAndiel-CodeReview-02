@@ -136,16 +136,39 @@ nav {	height:50px;
 	justify-content: flex-end;
 }
 
+#top-news-banner {
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	background-color: #DCDCDC;
+	
+	p {
+		color:grey;
+	}
+
+}
+
 // END NAVBAR
 // START MAIN 
 
-#main-container {
+main {
 	height:120px;
 	width:90%;
 	margin-right: 5%;
 	margin-left: 5%;
 	border:4px solid black;
 	background-color:white;
+
+	#main-line1 {
+		display: flex;
+		justify-content: space-between;
+		width:100%;
+		height:100px;
+
+		.main-line1-item {
+			width:20%;
+		}
+	}
 }
 
 
