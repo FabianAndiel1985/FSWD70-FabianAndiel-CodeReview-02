@@ -1,7 +1,4 @@
 @media screen and (max-width: 900px) {
-  body {
-    background-color: lightgreen; }
-
   body header #header-container #header-img2-container {
     display: none; }
 
