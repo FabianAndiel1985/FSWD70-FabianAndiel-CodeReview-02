@@ -1,3 +1,16 @@
+// START MEDIA QUERIES 
+
+
+
+
+
+
+
+
+
+// END MEDIA QUERIES 
+
+
 // START HEADER
 
 header {
@@ -80,13 +93,16 @@ footer {
 		width:100%;
 		border:4px solid black;
 		background-color:black;	
+			
 			// START FIRST LINE FOOTER
 			
 			#footer-line1 {
 				height:120px;
 				width:100%;
 				border:4px solid black;
-				// background-color:yellow;
+				display: flex;
+				justify-content: flex-start;
+
 
 				ul {
 						display:block;
@@ -94,8 +110,8 @@ footer {
 						margin: 0; 
 						padding: 0; 
 						position: absolute;
-						width: 100%;
-						height:100%;
+						width: 40%;
+						height:10%;
 						display:block;
 				} 
 
@@ -111,10 +127,36 @@ footer {
 				text-decoration: none;
 				}
 			}
-		
 			// END FIRST LINE FOOTER
+
+			// START SECOND LINE FOOTER
+
+			#footer-line2 {
+				display:flex;
+				justify-content: flex-end;
+			}
+			// END SECOND LINE FOOTER
+
+
+			// START THIRD LINE FOOTER
+
+			#footer-line3 {
+				display:flex;
+				justify-content: center;
+				color:white;
+			}
+			// END SECOND LINE FOOTER
+
+
 
 
 
 		}
 
+
+
+
+
+
+
+// END FOOTER
