@@ -13,11 +13,6 @@
 		width:60%;
 	}
 
-
-
-
-
-
 // Makes nav bar center 
 
 	 body nav {
@@ -37,6 +32,13 @@
     	display: flex;
     	justify-content: center;
     }
+
+    // Makes date dissapear
+	body #subnavbar #date  {
+		display:none;
+	}
+	
+
 
 
 }
@@ -126,12 +128,22 @@ nav {	height:50px;
 				}
 }
 
+#subnavbar {
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	display: flex;
+	justify-content: flex-end;
+}
+
 // END NAVBAR
 // START MAIN 
 
 #main-container {
 	height:120px;
-	width:100%;
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
 	border:4px solid black;
 	background-color:white;
 }
