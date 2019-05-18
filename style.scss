@@ -60,10 +60,27 @@
 
 // End Makes main line 1 responsive
 
+	body main #main-line2 {
+		flex-wrap: wrap;
+		max-height:600px;
+	}
+
+	body main #main-line2 .card {
+		max-width: 43%;
+
+	}
+
+	body main #main-line2 #hidden {
+		visibility: visible;
+	}
+
+
+
+
 }
 
 
-// END MEDIA QUERIES 
+// END MEDIA QUERIES ____________________________________________________________________________________
 
 
 
@@ -219,6 +236,22 @@ main {
 	display: flex;
 	justify-content: center;
 	}
+
+	#main-line3 {
+		display: flex;
+		justify-content: space-between;
+		width:100%;
+		max-height:300px;
+
+		#main-line3-img-container {
+			display:flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			width:90%;
+		}
+		
+	}
+
 
 }
 

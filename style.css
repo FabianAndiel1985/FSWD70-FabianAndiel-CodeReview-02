@@ -31,7 +31,17 @@
     display: none; }
 
   body main #main-line1 #trick2 {
-    display: inline-block; } }
+    display: inline-block; }
+
+  body main #main-line2 {
+    flex-wrap: wrap;
+    max-height: 600px; }
+
+  body main #main-line2 .card {
+    max-width: 43%; }
+
+  body main #main-line2 #hidden {
+    visibility: visible; } }
 body {
   margin: 0px; }
 
@@ -116,6 +126,16 @@ main {
     margin-top: 300px;
     display: flex;
     justify-content: center; }
+  main #main-line3 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 300px; }
+    main #main-line3 #main-line3-img-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 90%; }
 
 footer {
   margin-top: 900px;
