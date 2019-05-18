@@ -90,7 +90,7 @@ nav {
     color: grey; }
 
 main {
-  height: 1000px;
+  height: 2000px;
   width: 90%;
   margin-right: 5%;
   margin-left: 5%;
@@ -102,19 +102,17 @@ main {
     max-height: 300px; }
   main #trick2 {
     display: none; }
-
-#popular-banner {
-  width: 75%;
-  background-color: #DCDCDC; }
-  #popular-banner p {
-    color: grey; }
-  #popular-banner #main-line2 {
-    margin-top: 300px;
+  main #popular-banner {
+    width: 75%;
+    background-color: #DCDCDC; }
+    main #popular-banner p {
+      color: grey; }
+  main #main-line2 {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 100px; }
-  #popular-banner #webdeveloper-banner {
+    height: 300px; }
+  main #webdeveloper-banner {
     margin-top: 300px;
     display: flex;
     justify-content: center; }
