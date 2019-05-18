@@ -1,0 +1,142 @@
+/*HEADER*/
+
+header {
+	width:100%;
+	display: flex;
+}
+
+header #header-flex-item2 {
+
+		flex-grow: 2;
+	 	display: flex;
+  		justify-content: center;
+  		flex-direction: column;
+  		text-align: center;
+}
+
+header #header-flex-item2 p {
+		font-family: 'Gloria Hallelujah', cursive;
+		font-size: 40px;
+		width:80%;
+}
+
+
+/*END HEADER*/
+
+
+
+
+/*ENDING TABLE LAYOUT FOR HEADER PIC AND FOOTER*/
+
+/* LAYOUT FOR NAVBAR */
+
+		ul {   display:block;
+		       list-style-type: none;
+		       margin: 0; 
+		       padding: 0; 
+		       background-color: brown;
+		       position: absolute;
+		       width: 100%; 
+		     }
+		    
+		     li {
+		       float: left;
+		 		}
+
+		     li a {
+		       display: block;
+		       color: white;
+		       padding: 14px 16px;
+		       text-decoration: none;
+		     }
+
+
+/* ENDING LAYOUT FOR NAVBAR */
+
+/*LAYOUT FOR HERO IMAGE PART*/
+
+#hero-image > h1 {
+				font-family: 'Gloria Hallelujah','Dancing Script', cursive;
+				text-align: center;
+							}
+
+#secondBar {
+			height:2vw; /*Question: why doesn`t height in % doesn`t work here*/ 
+			width:100%;
+			background-color: silver;
+			color: white;	
+			font-size:1.3em;
+										} 
+/*ENDING LAYOUT FOR HERO IMAGE PART*/
+
+/*LAYOUT FOR MAIN*/
+
+		#main-line1 {
+			display:flex;
+		}
+
+		#main-line1 #main-line1-item1{
+			width:25%;
+		}
+		
+		#main-line1 #main-line1-item2 {
+			width:80%;
+		}
+
+		#main-line1 #main-line1-item2 #main-line1-textbox1{
+			width:70%;
+			height:72% ;
+			margin-bottom:73px;
+			border-color: black;
+			border-style: outset;
+			border-width: 2px;
+			
+		}
+
+
+
+
+
+
+
+
+			.flex-container {
+				display: flex;
+				justify-content: space-around;
+  				align-items: center;
+  				flex-wrap: wrap;
+			}
+
+			.flex-container img {
+				width:  405px;
+				height: 270px;
+
+			}
+
+			.tested {
+				color:white; /*Question: Would love to do this more elegant*/
+			}
+
+			figcaption {
+				font-family: 'Noto Sans JP', sans-serif;
+			}
+			
+/*ENDING LAYOUT FOR MAIN*/
+
+			#thirdBar {
+				height:1vw; /*Question: why doesn`t height in % doesn`t work here*/ 
+				width:100%;
+				background-color: darkgrey;
+				margin-top: 9%;
+				margin-bottom:3%;
+			/*	color: white;*/
+				}	
+
+
+/*LAYOUT FOR FOOTER*/
+			footer {
+				text-align:center;
+			}
+/*ENDING LAYOUT FOR FOOTER*/
+
+
